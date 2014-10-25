@@ -16,7 +16,7 @@
 Wolfram = require('wolfram').createClient(process.env.HUBOT_WOLFRAM_APPID)
 
 module.exports = (robot) ->
-  robot.respond /(question|wfa) (.*)$/i, (msg) ->
+  robot.respond /(question|wfa|wolfram) (.*)$/i, (msg) ->
     #console.log msg.match
     Wolfram.query msg.match[2], (e, result) ->
       # console.log result
