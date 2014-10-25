@@ -1,7 +1,7 @@
 {
   "name": "hubot-wolfram",
   "description": "A Hubot script to pull realtime BART train departure information.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "./src/wolfram",
   "repository": {
     "type": "git",
