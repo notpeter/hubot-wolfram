@@ -1,0 +1,25 @@
+{
+  "name": "hubot-wolfram",
+  "description": "A Hubot script to pull realtime BART train departure information.",
+  "version": "1.0.3",
+  "main": "./src/bart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notpeter/hubot-wolfram.git"
+  },
+  "keywords": [
+    "hubot",
+    "wolfram",
+    "wolframalpha",
+    "question"
+  ],
+  "author": "Dan Horrigan (http://dhorrigan.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/notpeter/hubot-wolfram/issues"
+  },
+  "homepage": "https://github.com/notpeter/hubot-wolfram",
+  "dependencies": {
+    "wolfram": "0.3.0"
+  }
+}
