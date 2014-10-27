@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/notpeter/hubot-wolfram",
   "dependencies": {
-    "wolfram": "0.3.0"
+    "request": "^2.1",
+    "libxmljs": "^0.8.1",
+    "wolfram": "^0.3.0"
   }
 }
