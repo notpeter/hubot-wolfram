@@ -21,6 +21,11 @@ module.exports = (robot) ->
     Wolfram.query msg.match[2], (e, result) ->
       # console.log result
       if result and result.length > 0
-        msg.send result[1]['subpods'][0]['value']
+        value = result[1]['subpods'][0]['value']
+        img = result[1]['subpods'][0]['image']
+        if value
+          msg.send value
+        else
+          msg.send img
       else
         msg.send 'Hmm...not sure'
